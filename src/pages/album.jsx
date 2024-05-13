@@ -12,24 +12,24 @@ const Displaybox = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px; 
-    padding: 30px; 
+    padding: 30px 0 30px 0; 
 `;
 
 const  Album = () => {
     return (
-            <Wrapper>
-                <Displaybox>
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                </Displaybox>
-            </Wrapper>
+        <Wrapper>
+            <Displaybox>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+            </Displaybox>
+        </Wrapper>
     );
 };
 

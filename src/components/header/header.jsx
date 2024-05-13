@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const HeaderWrapper = styled.div`
-    position: fixed; // 추가된 속성
+    position: fixed; 
     top: 0;
     z-index: 1000; 
     display: flex;
