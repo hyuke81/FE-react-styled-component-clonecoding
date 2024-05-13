@@ -68,6 +68,6 @@ https://getbootstrap.com/docs/4.3/examples/album/
 - `const Foot`
 
 App.jsx
-![image](https://github.com/hyuke81/FE-react-styled-component-clonecoding/assets/163503680/c4ddd1d2-b2c1-46c2-a5dd-e1203c063401)
 
 - `Fix`: 가로 넘치는 부분 잘려서 보이지 않게
+- ![image](https://github.com/hyuke81/FE-react-styled-component-clonecoding/assets/163503680/c4ddd1d2-b2c1-46c2-a5dd-e1203c063401)
