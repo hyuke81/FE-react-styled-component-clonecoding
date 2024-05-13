@@ -33,7 +33,7 @@ https://getbootstrap.com/docs/4.3/examples/album/
 
 ## 컴포넌트 계층 구조
 
-주된 컴포넌트인 헤더, 푸터, 포토카드(사진과 글이 있는 것), 버튼에 대해 어떤 계층으로 설계했는지 이곳에 작성해주세요. 그리고 자식 컴포넌트 들에 대해서 어떤 의도를 갖고 설계했는지(ex 정렬하기 위해서, border를 주기 위해서 등) 부담없이 간단하게 적으면 됩니다. (아래는 예시입니다.)
+주된 컴포넌트인 헤더, 푸터, 포토카드(사진과 글이 있는 것), 버튼에 대해 어떤 계층으로 설계했는지 이곳에 작성해주세요. 그리고 자식 컴포넌트 들에 대해서 어떤 의도를 갖고 설계했는지(ex 정렬하기 위해서, border를 주기 위해서 등) 부담없이 간단하게 적으면 됩니다.
 `components`
 - `Header` -> const Headline
     - `HeaderWrapper`: 상단 고정 position: fixed, top, z-index
@@ -68,9 +68,6 @@ https://getbootstrap.com/docs/4.3/examples/album/
 - `const Foot`
 
 App.jsx
-import Banner from "./pages/banner";
-import Head from "./pages/head";
-import Album from "./pages/album";
-import Foot from "./pages/foot";
-import styled from "styled-components";
+![image](https://github.com/hyuke81/FE-react-styled-component-clonecoding/assets/163503680/c4ddd1d2-b2c1-46c2-a5dd-e1203c063401)
+
 - `Fix`: 가로 넘치는 부분 잘려서 보이지 않게
