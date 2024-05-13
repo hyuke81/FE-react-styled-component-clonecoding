@@ -1,6 +1,19 @@
-// 해당 위치에 필요한 컴포넌트를 바탕으로 직접 Bootstrap Album 페이지를 개발하시면 됩니다.
+import Banner from "./pages/banner";
+import Head from "./pages/head";
+import Album from "./pages/album";
+import Foot from "./pages/foot";
+
+
 function App() {
-  return <>다들 화이팅 !</>;
+  return (
+    <div>
+      <Head/>
+      <Banner/>
+      <Album/>
+      <Foot/>
+    </div>
+  );
 }
 
 export default App;
+
